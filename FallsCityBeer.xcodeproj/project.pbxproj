@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A006204E153C926F004E284D /* beerGlass.png in Resources */ = {isa = PBXBuildFile; fileRef = A006204C153C926F004E284D /* beerGlass.png */; };
+		A006204F153C926F004E284D /* beerGlass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A006204D153C926F004E284D /* beerGlass@2x.png */; };
+		A0062058153CBE05004E284D /* beerFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = A0062056153CBE05004E284D /* beerFrame.png */; };
+		A0062059153CBE05004E284D /* beerFrame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0062057153CBE05004E284D /* beerFrame@2x.png */; };
+		A0062065153CC643004E284D /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A0062063153CC643004E284D /* backButton.png */; };
+		A0062066153CC643004E284D /* backButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0062064153CC643004E284D /* backButton@2x.png */; };
+		A006206A153CCFB6004E284D /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0062069153CCFB6004E284D /* TopViewController.xib */; };
+		A0138F65156FF5370092C4E4 /* topButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A0138F63156FF5370092C4E4 /* topButtonBackground.png */; };
+		A0138F66156FF5370092C4E4 /* topButtonBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0138F64156FF5370092C4E4 /* topButtonBackground@2x.png */; };
+		A0138F6B156FF80A0092C4E4 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0138F6A156FF80A0092C4E4 /* CalendarViewController.m */; };
+		A0138F6D156FF8460092C4E4 /* Calendar.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0138F6C156FF8460092C4E4 /* Calendar.xib */; };
+		A015610D1548DF8200847639 /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A015610C1548DF8200847639 /* UIUtils.m */; };
+		A01561121548E3AC00847639 /* Lifestyle_Rounded_M54.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01561111548E3AC00847639 /* Lifestyle_Rounded_M54.ttf */; };
+		A016A98814F4273400FF3CFF /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A016A98714F4273400FF3CFF /* Constants.m */; };
+		A016A98A14F42B8B00FF3CFF /* Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = A016A98914F42B8B00FF3CFF /* Home.xib */; };
+		A016A98E14F42BE800FF3CFF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A016A98D14F42BE800FF3CFF /* HomeViewController.m */; };
+		A016A99014F434EC00FF3CFF /* Beer.xib in Resources */ = {isa = PBXBuildFile; fileRef = A016A98F14F434EC00FF3CFF /* Beer.xib */; };
+		A016A99414F4350D00FF3CFF /* BeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A016A99314F4350D00FF3CFF /* BeerViewController.m */; };
+		A016A99614F436ED00FF3CFF /* BeerLocator.xib in Resources */ = {isa = PBXBuildFile; fileRef = A016A99514F436ED00FF3CFF /* BeerLocator.xib */; };
+		A016A99814F4370700FF3CFF /* Gallery.xib in Resources */ = {isa = PBXBuildFile; fileRef = A016A99714F4370700FF3CFF /* Gallery.xib */; };
+		A016A99D14F4374F00FF3CFF /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A016A99C14F4374F00FF3CFF /* GalleryViewController.m */; };
+		A016A9A014F4376700FF3CFF /* BeerLocatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A016A99F14F4376700FF3CFF /* BeerLocatorViewController.m */; };
+		A0197BAE1508029F0014D35B /* tabBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A0197BAC1508029F0014D35B /* tabBarBackground.png */; };
+		A0197BAF1508029F0014D35B /* tabBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0197BAD1508029F0014D35B /* tabBarBackground@2x.png */; };
+		A01A00D415406B0400EDF176 /* tobBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A01A00D215406B0400EDF176 /* tobBarBackground.png */; };
+		A01A00D515406B0400EDF176 /* tobBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01A00D315406B0400EDF176 /* tobBarBackground@2x.png */; };
+		A01A00D915406B6600EDF176 /* TopBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01A00D815406B6600EDF176 /* TopBarViewController.m */; };
+		A01BE3F814F3678D002E48C0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A01BE3F714F3678D002E48C0 /* icon.png */; };
+		A01BE3FA14F36791002E48C0 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01BE3F914F36791002E48C0 /* icon@2x.png */; };
+		A01BE3FF14F36856002E48C0 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01BE3FE14F36856002E48C0 /* LoadingViewController.m */; };
+		A01BE40114F368BD002E48C0 /* Loading.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01BE40014F368BD002E48C0 /* Loading.xib */; };
+		A01BE40514F36A0C002E48C0 /* loadingBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A01BE40314F36A0C002E48C0 /* loadingBackground.png */; };
+		A01BE40614F36A0C002E48C0 /* loadingBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01BE40414F36A0C002E48C0 /* loadingBackground@2x.png */; };
+		A01D54D0152B5BAD00E8E178 /* homeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A01D54CE152B5BAD00E8E178 /* homeBackground.png */; };
+		A01D54D1152B5BAD00E8E178 /* homeBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01D54CF152B5BAD00E8E178 /* homeBackground@2x.png */; };
+		A01FB6DB157E924400507BF2 /* tabbarbackground_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A01FB6D9157E924400507BF2 /* tabbarbackground_2.png */; };
+		A01FB6DC157E924400507BF2 /* tabbarbackground_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01FB6DA157E924400507BF2 /* tabbarbackground_2@2x.png */; };
+		A01FB717157EA0D300507BF2 /* itemTabBarSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = A01FB715157EA0D300507BF2 /* itemTabBarSelected.png */; };
+		A01FB718157EA0D300507BF2 /* itemTabBarSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01FB716157EA0D300507BF2 /* itemTabBarSelected@2x.png */; };
+		A01FB734157ECFF600507BF2 /* beerletfHome.png in Resources */ = {isa = PBXBuildFile; fileRef = A01FB732157ECFF600507BF2 /* beerletfHome.png */; };
+		A01FB735157ECFF600507BF2 /* beerletfHome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01FB733157ECFF600507BF2 /* beerletfHome@2x.png */; };
+		A01FB73C157ED6C600507BF2 /* girlRightHome.png in Resources */ = {isa = PBXBuildFile; fileRef = A01FB73A157ED6C600507BF2 /* girlRightHome.png */; };
+		A01FB73D157ED6C600507BF2 /* girlRightHome@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = A01FB73B157ED6C600507BF2 /* girlRightHome@2X.png */; };
+		A020154D14DAF628009DDD0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A020154C14DAF628009DDD0A /* UIKit.framework */; };
+		A020154F14DAF628009DDD0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A020154E14DAF628009DDD0A /* Foundation.framework */; };
+		A020155114DAF628009DDD0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A020155014DAF628009DDD0A /* CoreGraphics.framework */; };
+		A020155714DAF628009DDD0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A020155514DAF628009DDD0A /* InfoPlist.strings */; };
+		A020155914DAF628009DDD0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A020155814DAF628009DDD0A /* main.m */; };
+		A020155D14DAF628009DDD0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A020155C14DAF628009DDD0A /* AppDelegate.m */; };
+		A021A7811548729300E4D689 /* thankyou.png in Resources */ = {isa = PBXBuildFile; fileRef = A021A77F1548729300E4D689 /* thankyou.png */; };
+		A021A7821548729300E4D689 /* thankyou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A021A7801548729300E4D689 /* thankyou@2x.png */; };
+		A021A7891548A14900E4D689 /* ContactUs.xib in Resources */ = {isa = PBXBuildFile; fileRef = A021A7881548A14900E4D689 /* ContactUs.xib */; };
+		A021A78E1548A22B00E4D689 /* contactUsBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A021A78C1548A22B00E4D689 /* contactUsBackground.png */; };
+		A021A78F1548A22B00E4D689 /* contactUsBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A021A78D1548A22B00E4D689 /* contactUsBackground@2x.png */; };
+		A021A7931548A2BF00E4D689 /* ContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A021A7921548A2BF00E4D689 /* ContactUsViewController.m */; };
+		A06655E01545B86C0097B413 /* tobBarBackground2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A06655DF1545B86C0097B413 /* tobBarBackground2@2x.png */; };
+		A06655E21545B8AF0097B413 /* tobBarBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = A06655E11545B8AF0097B413 /* tobBarBackground2.png */; };
+		A06655EA1545C5660097B413 /* Newsletter.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06655E91545C5660097B413 /* Newsletter.xib */; };
+		A06655EE1545EE7F0097B413 /* newsletterBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A06655EC1545EE7F0097B413 /* newsletterBackground.png */; };
+		A06655EF1545EE7F0097B413 /* newsletterBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A06655ED1545EE7F0097B413 /* newsletterBackground@2x.png */; };
+		A06655F31545EEDA0097B413 /* NewletterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06655F21545EEDA0097B413 /* NewletterViewController.m */; };
+		A06655F6154611810097B413 /* sendButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A06655F4154611810097B413 /* sendButton.png */; };
+		A06655F7154611810097B413 /* sendButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A06655F5154611810097B413 /* sendButton@2x.png */; };
+		A08BB86D15A3A0C4006A0182 /* twiterButtonPress.png in Resources */ = {isa = PBXBuildFile; fileRef = A08BB86915A3A0C4006A0182 /* twiterButtonPress.png */; };
+		A08BB86E15A3A0C4006A0182 /* twiterButtonPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A08BB86A15A3A0C4006A0182 /* twiterButtonPress@2x.png */; };
+		A08BB86F15A3A0C4006A0182 /* twitterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A08BB86B15A3A0C4006A0182 /* twitterButton.png */; };
+		A08BB87015A3A0C4006A0182 /* twitterButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A08BB86C15A3A0C4006A0182 /* twitterButton@2x.png */; };
+		A08BB87315A3A39B006A0182 /* facebookButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A08BB87115A3A39B006A0182 /* facebookButton.png */; };
+		A08BB87415A3A39B006A0182 /* facebookButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A08BB87215A3A39B006A0182 /* facebookButton@2x.png */; };
+		A08BB87715A3A482006A0182 /* facebookButtonPress.png in Resources */ = {isa = PBXBuildFile; fileRef = A08BB87515A3A482006A0182 /* facebookButtonPress.png */; };
+		A08BB87815A3A482006A0182 /* facebookButtonPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A08BB87615A3A482006A0182 /* facebookButtonPress@2x.png */; };
+		A0A2BC8815FA6B2A00D70809 /* loadingBackground_1Left.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2BC8215FA6B2A00D70809 /* loadingBackground_1Left.png */; };
+		A0A2BC8915FA6B2A00D70809 /* loadingBackground_1Left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2BC8315FA6B2A00D70809 /* loadingBackground_1Left@2x.png */; };
+		A0A2BC8A15FA6B2A00D70809 /* loadingBackground_1Right.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2BC8415FA6B2A00D70809 /* loadingBackground_1Right.png */; };
+		A0A2BC8B15FA6B2A00D70809 /* loadingBackground_1Right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2BC8515FA6B2A00D70809 /* loadingBackground_1Right@2x.png */; };
+		A0A2BC8C15FA6B2A00D70809 /* loadingBackground_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2BC8615FA6B2A00D70809 /* loadingBackground_2.png */; };
+		A0A2BC8D15FA6B2A00D70809 /* loadingBackground_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2BC8715FA6B2A00D70809 /* loadingBackground_2@2x.png */; };
+		A0A2BC9115FA72FB00D70809 /* loadingBackground_1Right_blur.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2BC8F15FA72FB00D70809 /* loadingBackground_1Right_blur.png */; };
+		A0A2BC9215FA72FB00D70809 /* loadingBackground_1Right_blur@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2BC9015FA72FB00D70809 /* loadingBackground_1Right_blur@2x.png */; };
+		A0A2BC9515FA752E00D70809 /* loadingBackground_1Left_blur.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2BC9315FA752E00D70809 /* loadingBackground_1Left_blur.png */; };
+		A0A2BC9615FA752E00D70809 /* loadingBackground_1Left_blur@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2BC9415FA752E00D70809 /* loadingBackground_1Left_blur@2x.png */; };
+		A0A2BC9915FA907B00D70809 /* tweetsCellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2BC9715FA907B00D70809 /* tweetsCellBackground.png */; };
+		A0A2BC9A15FA907B00D70809 /* tweetsCellBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2BC9815FA907B00D70809 /* tweetsCellBackground@2x.png */; };
+		A0FD8F17152A5ED80029A8B0 /* CustomUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FD8F16152A5ED80029A8B0 /* CustomUITabBarController.m */; };
+		F1664D91157F1099004604E6 /* Twitter.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1664D90157F1099004604E6 /* Twitter.xib */; };
+		F17061B01578692000DEF1C2 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17061AF1578692000DEF1C2 /* TwitterViewController.m */; };
+		F1FEFA71158AE8550032778B /* twitterCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1FEFA70158AE8550032778B /* twitterCells.xib */; };
+		F1FEFA75158AE9650032778B /* TwitterCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEFA74158AE9650032778B /* TwitterCellViewController.m */; };
+		F1FEFA7B1596DF5E0032778B /* Facebook.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1FEFA7A1596DF5E0032778B /* Facebook.xib */; };
+		F1FEFA801596E2D00032778B /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEFA7F1596E2D00032778B /* FacebookViewController.m */; };
+		F1FEFA831596E2E80032778B /* FacebookCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEFA821596E2E80032778B /* FacebookCellViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A006204C153C926F004E284D /* beerGlass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beerGlass.png; path = FallsCityBeer/assets/beerGlass.png; sourceTree = "<group>"; };
+		A006204D153C926F004E284D /* beerGlass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "beerGlass@2x.png"; path = "FallsCityBeer/assets/beerGlass@2x.png"; sourceTree = "<group>"; };
+		A0062056153CBE05004E284D /* beerFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beerFrame.png; path = FallsCityBeer/assets/beerFrame.png; sourceTree = "<group>"; };
+		A0062057153CBE05004E284D /* beerFrame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "beerFrame@2x.png"; path = "FallsCityBeer/assets/beerFrame@2x.png"; sourceTree = "<group>"; };
+		A0062063153CC643004E284D /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButton.png; path = FallsCityBeer/assets/backButton.png; sourceTree = "<group>"; };
+		A0062064153CC643004E284D /* backButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backButton@2x.png"; path = "FallsCityBeer/assets/backButton@2x.png"; sourceTree = "<group>"; };
+		A0062069153CCFB6004E284D /* TopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TopViewController.xib; path = com/prosoft/fcb/view/TopViewController.xib; sourceTree = "<group>"; };
+		A0138F63156FF5370092C4E4 /* topButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topButtonBackground.png; path = FallsCityBeer/assets/topButtonBackground.png; sourceTree = "<group>"; };
+		A0138F64156FF5370092C4E4 /* topButtonBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "topButtonBackground@2x.png"; path = "FallsCityBeer/assets/topButtonBackground@2x.png"; sourceTree = "<group>"; };
+		A0138F69156FF80A0092C4E4 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarViewController.h; path = com/prosoft/fcb/view/CalendarViewController.h; sourceTree = "<group>"; };
+		A0138F6A156FF80A0092C4E4 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarViewController.m; path = com/prosoft/fcb/view/CalendarViewController.m; sourceTree = "<group>"; };
+		A0138F6C156FF8460092C4E4 /* Calendar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Calendar.xib; path = Resources/Calendar.xib; sourceTree = "<group>"; };
+		A015610B1548DF8200847639 /* UIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIUtils.h; path = com/prosoft/fcb/util/UIUtils.h; sourceTree = "<group>"; };
+		A015610C1548DF8200847639 /* UIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIUtils.m; path = com/prosoft/fcb/util/UIUtils.m; sourceTree = "<group>"; };
+		A01561111548E3AC00847639 /* Lifestyle_Rounded_M54.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Lifestyle_Rounded_M54.ttf; path = fonts/Lifestyle_Rounded_M54.ttf; sourceTree = "<group>"; };
+		A016A98614F4273400FF3CFF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = com/prosoft/fcb/util/Constants.h; sourceTree = "<group>"; };
+		A016A98714F4273400FF3CFF /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = com/prosoft/fcb/util/Constants.m; sourceTree = "<group>"; };
+		A016A98914F42B8B00FF3CFF /* Home.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Home.xib; path = Resources/Home.xib; sourceTree = "<group>"; };
+		A016A98C14F42BE800FF3CFF /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = com/prosoft/fcb/view/HomeViewController.h; sourceTree = "<group>"; };
+		A016A98D14F42BE800FF3CFF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = com/prosoft/fcb/view/HomeViewController.m; sourceTree = "<group>"; };
+		A016A98F14F434EC00FF3CFF /* Beer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Beer.xib; path = Resources/Beer.xib; sourceTree = "<group>"; };
+		A016A99214F4350D00FF3CFF /* BeerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeerViewController.h; path = com/prosoft/fcb/view/BeerViewController.h; sourceTree = "<group>"; };
+		A016A99314F4350D00FF3CFF /* BeerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeerViewController.m; path = com/prosoft/fcb/view/BeerViewController.m; sourceTree = "<group>"; };
+		A016A99514F436ED00FF3CFF /* BeerLocator.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BeerLocator.xib; path = Resources/BeerLocator.xib; sourceTree = "<group>"; };
+		A016A99714F4370700FF3CFF /* Gallery.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Gallery.xib; sourceTree = "<group>"; };
+		A016A99B14F4374F00FF3CFF /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GalleryViewController.h; path = com/prosoft/fcb/view/GalleryViewController.h; sourceTree = "<group>"; };
+		A016A99C14F4374F00FF3CFF /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GalleryViewController.m; path = com/prosoft/fcb/view/GalleryViewController.m; sourceTree = "<group>"; };
+		A016A99E14F4376700FF3CFF /* BeerLocatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeerLocatorViewController.h; path = com/prosoft/fcb/view/BeerLocatorViewController.h; sourceTree = "<group>"; };
+		A016A99F14F4376700FF3CFF /* BeerLocatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeerLocatorViewController.m; path = com/prosoft/fcb/view/BeerLocatorViewController.m; sourceTree = "<group>"; };
+		A0197BAC1508029F0014D35B /* tabBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabBarBackground.png; path = FallsCityBeer/assets/tabBarBackground.png; sourceTree = "<group>"; };
+		A0197BAD1508029F0014D35B /* tabBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabBarBackground@2x.png"; path = "FallsCityBeer/assets/tabBarBackground@2x.png"; sourceTree = "<group>"; };
+		A01A00D215406B0400EDF176 /* tobBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tobBarBackground.png; path = FallsCityBeer/assets/tobBarBackground.png; sourceTree = "<group>"; };
+		A01A00D315406B0400EDF176 /* tobBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tobBarBackground@2x.png"; path = "FallsCityBeer/assets/tobBarBackground@2x.png"; sourceTree = "<group>"; };
+		A01A00D715406B6600EDF176 /* TopBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopBarViewController.h; path = com/prosoft/fcb/view/TopBarViewController.h; sourceTree = "<group>"; };
+		A01A00D815406B6600EDF176 /* TopBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopBarViewController.m; path = com/prosoft/fcb/view/TopBarViewController.m; sourceTree = "<group>"; };
+		A01BE3F714F3678D002E48C0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A01BE3F914F36791002E48C0 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		A01BE3FD14F36856002E48C0 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingViewController.h; path = com/prosoft/fcb/view/LoadingViewController.h; sourceTree = "<group>"; };
+		A01BE3FE14F36856002E48C0 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingViewController.m; path = com/prosoft/fcb/view/LoadingViewController.m; sourceTree = "<group>"; };
+		A01BE40014F368BD002E48C0 /* Loading.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Loading.xib; path = Resources/Loading.xib; sourceTree = "<group>"; };
+		A01BE40314F36A0C002E48C0 /* loadingBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loadingBackground.png; path = FallsCityBeer/assets/loadingBackground.png; sourceTree = "<group>"; };
+		A01BE40414F36A0C002E48C0 /* loadingBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loadingBackground@2x.png"; path = "FallsCityBeer/assets/loadingBackground@2x.png"; sourceTree = "<group>"; };
+		A01D54CE152B5BAD00E8E178 /* homeBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homeBackground.png; path = FallsCityBeer/assets/homeBackground.png; sourceTree = "<group>"; };
+		A01D54CF152B5BAD00E8E178 /* homeBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "homeBackground@2x.png"; path = "FallsCityBeer/assets/homeBackground@2x.png"; sourceTree = "<group>"; };
+		A01FB6D9157E924400507BF2 /* tabbarbackground_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbarbackground_2.png; path = FallsCityBeer/assets/tabbarbackground_2.png; sourceTree = "<group>"; };
+		A01FB6DA157E924400507BF2 /* tabbarbackground_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbarbackground_2@2x.png"; path = "FallsCityBeer/assets/tabbarbackground_2@2x.png"; sourceTree = "<group>"; };
+		A01FB715157EA0D300507BF2 /* itemTabBarSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = itemTabBarSelected.png; path = FallsCityBeer/assets/itemTabBarSelected.png; sourceTree = "<group>"; };
+		A01FB716157EA0D300507BF2 /* itemTabBarSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "itemTabBarSelected@2x.png"; path = "FallsCityBeer/assets/itemTabBarSelected@2x.png"; sourceTree = "<group>"; };
+		A01FB732157ECFF600507BF2 /* beerletfHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beerletfHome.png; path = FallsCityBeer/assets/beerletfHome.png; sourceTree = "<group>"; };
+		A01FB733157ECFF600507BF2 /* beerletfHome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "beerletfHome@2x.png"; path = "FallsCityBeer/assets/beerletfHome@2x.png"; sourceTree = "<group>"; };
+		A01FB73A157ED6C600507BF2 /* girlRightHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = girlRightHome.png; path = FallsCityBeer/assets/girlRightHome.png; sourceTree = "<group>"; };
+		A01FB73B157ED6C600507BF2 /* girlRightHome@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "girlRightHome@2X.png"; path = "FallsCityBeer/assets/girlRightHome@2X.png"; sourceTree = "<group>"; };
+		A020154814DAF628009DDD0A /* FallsCityBeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FallsCityBeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A020154C14DAF628009DDD0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A020154E14DAF628009DDD0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A020155014DAF628009DDD0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A020155414DAF628009DDD0A /* FallsCityBeer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FallsCityBeer-Info.plist"; sourceTree = "<group>"; };
+		A020155614DAF628009DDD0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A020155814DAF628009DDD0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A020155A14DAF628009DDD0A /* FallsCityBeer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FallsCityBeer-Prefix.pch"; sourceTree = "<group>"; };
+		A020155B14DAF628009DDD0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A020155C14DAF628009DDD0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A021A77F1548729300E4D689 /* thankyou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thankyou.png; path = FallsCityBeer/assets/thankyou.png; sourceTree = "<group>"; };
+		A021A7801548729300E4D689 /* thankyou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thankyou@2x.png"; path = "FallsCityBeer/assets/thankyou@2x.png"; sourceTree = "<group>"; };
+		A021A7881548A14900E4D689 /* ContactUs.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContactUs.xib; path = Resources/ContactUs.xib; sourceTree = "<group>"; };
+		A021A78C1548A22B00E4D689 /* contactUsBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = contactUsBackground.png; path = FallsCityBeer/assets/contactUsBackground.png; sourceTree = "<group>"; };
+		A021A78D1548A22B00E4D689 /* contactUsBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "contactUsBackground@2x.png"; path = "FallsCityBeer/assets/contactUsBackground@2x.png"; sourceTree = "<group>"; };
+		A021A7911548A2BF00E4D689 /* ContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactUsViewController.h; path = com/prosoft/fcb/view/ContactUsViewController.h; sourceTree = "<group>"; };
+		A021A7921548A2BF00E4D689 /* ContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactUsViewController.m; path = com/prosoft/fcb/view/ContactUsViewController.m; sourceTree = "<group>"; };
+		A06655DF1545B86C0097B413 /* tobBarBackground2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tobBarBackground2@2x.png"; path = "FallsCityBeer/assets/tobBarBackground2@2x.png"; sourceTree = "<group>"; };
+		A06655E11545B8AF0097B413 /* tobBarBackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tobBarBackground2.png; path = FallsCityBeer/assets/tobBarBackground2.png; sourceTree = "<group>"; };
+		A06655E91545C5660097B413 /* Newsletter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Newsletter.xib; path = Resources/Newsletter.xib; sourceTree = "<group>"; };
+		A06655EC1545EE7F0097B413 /* newsletterBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newsletterBackground.png; path = FallsCityBeer/assets/newsletterBackground.png; sourceTree = "<group>"; };
+		A06655ED1545EE7F0097B413 /* newsletterBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newsletterBackground@2x.png"; path = "FallsCityBeer/assets/newsletterBackground@2x.png"; sourceTree = "<group>"; };
+		A06655F11545EEDA0097B413 /* NewletterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewletterViewController.h; path = com/prosoft/fcb/view/NewletterViewController.h; sourceTree = "<group>"; };
+		A06655F21545EEDA0097B413 /* NewletterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewletterViewController.m; path = com/prosoft/fcb/view/NewletterViewController.m; sourceTree = "<group>"; };
+		A06655F4154611810097B413 /* sendButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sendButton.png; path = FallsCityBeer/assets/sendButton.png; sourceTree = "<group>"; };
+		A06655F5154611810097B413 /* sendButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sendButton@2x.png"; path = "FallsCityBeer/assets/sendButton@2x.png"; sourceTree = "<group>"; };
+		A08BB86915A3A0C4006A0182 /* twiterButtonPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twiterButtonPress.png; path = FallsCityBeer/assets/twiterButtonPress.png; sourceTree = "<group>"; };
+		A08BB86A15A3A0C4006A0182 /* twiterButtonPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twiterButtonPress@2x.png"; path = "FallsCityBeer/assets/twiterButtonPress@2x.png"; sourceTree = "<group>"; };
+		A08BB86B15A3A0C4006A0182 /* twitterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitterButton.png; path = FallsCityBeer/assets/twitterButton.png; sourceTree = "<group>"; };
+		A08BB86C15A3A0C4006A0182 /* twitterButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitterButton@2x.png"; path = "FallsCityBeer/assets/twitterButton@2x.png"; sourceTree = "<group>"; };
+		A08BB87115A3A39B006A0182 /* facebookButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebookButton.png; path = FallsCityBeer/assets/facebookButton.png; sourceTree = "<group>"; };
+		A08BB87215A3A39B006A0182 /* facebookButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebookButton@2x.png"; path = "FallsCityBeer/assets/facebookButton@2x.png"; sourceTree = "<group>"; };
+		A08BB87515A3A482006A0182 /* facebookButtonPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebookButtonPress.png; path = FallsCityBeer/assets/facebookButtonPress.png; sourceTree = "<group>"; };
+		A08BB87615A3A482006A0182 /* facebookButtonPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebookButtonPress@2x.png"; path = "FallsCityBeer/assets/facebookButtonPress@2x.png"; sourceTree = "<group>"; };
+		A0A2BC8215FA6B2A00D70809 /* loadingBackground_1Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loadingBackground_1Left.png; path = FallsCityBeer/assets/loadingBackground_1Left.png; sourceTree = "<group>"; };
+		A0A2BC8315FA6B2A00D70809 /* loadingBackground_1Left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loadingBackground_1Left@2x.png"; path = "FallsCityBeer/assets/loadingBackground_1Left@2x.png"; sourceTree = "<group>"; };
+		A0A2BC8415FA6B2A00D70809 /* loadingBackground_1Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loadingBackground_1Right.png; path = FallsCityBeer/assets/loadingBackground_1Right.png; sourceTree = "<group>"; };
+		A0A2BC8515FA6B2A00D70809 /* loadingBackground_1Right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loadingBackground_1Right@2x.png"; path = "FallsCityBeer/assets/loadingBackground_1Right@2x.png"; sourceTree = "<group>"; };
+		A0A2BC8615FA6B2A00D70809 /* loadingBackground_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loadingBackground_2.png; path = FallsCityBeer/assets/loadingBackground_2.png; sourceTree = "<group>"; };
+		A0A2BC8715FA6B2A00D70809 /* loadingBackground_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loadingBackground_2@2x.png"; path = "FallsCityBeer/assets/loadingBackground_2@2x.png"; sourceTree = "<group>"; };
+		A0A2BC8F15FA72FB00D70809 /* loadingBackground_1Right_blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loadingBackground_1Right_blur.png; path = FallsCityBeer/assets/loadingBackground_1Right_blur.png; sourceTree = "<group>"; };
+		A0A2BC9015FA72FB00D70809 /* loadingBackground_1Right_blur@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loadingBackground_1Right_blur@2x.png"; path = "FallsCityBeer/assets/loadingBackground_1Right_blur@2x.png"; sourceTree = "<group>"; };
+		A0A2BC9315FA752E00D70809 /* loadingBackground_1Left_blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loadingBackground_1Left_blur.png; path = FallsCityBeer/assets/loadingBackground_1Left_blur.png; sourceTree = "<group>"; };
+		A0A2BC9415FA752E00D70809 /* loadingBackground_1Left_blur@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loadingBackground_1Left_blur@2x.png"; path = "FallsCityBeer/assets/loadingBackground_1Left_blur@2x.png"; sourceTree = "<group>"; };
+		A0A2BC9715FA907B00D70809 /* tweetsCellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tweetsCellBackground.png; path = FallsCityBeer/assets/tweetsCellBackground.png; sourceTree = "<group>"; };
+		A0A2BC9815FA907B00D70809 /* tweetsCellBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tweetsCellBackground@2x.png"; path = "FallsCityBeer/assets/tweetsCellBackground@2x.png"; sourceTree = "<group>"; };
+		A0FD8F15152A5ED80029A8B0 /* CustomUITabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomUITabBarController.h; path = com/prosoft/fcb/view/components/CustomUITabBarController.h; sourceTree = "<group>"; };
+		A0FD8F16152A5ED80029A8B0 /* CustomUITabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomUITabBarController.m; path = com/prosoft/fcb/view/components/CustomUITabBarController.m; sourceTree = "<group>"; };
+		F1664D90157F1099004604E6 /* Twitter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Twitter.xib; sourceTree = "<group>"; };
+		F17061AE1578692000DEF1C2 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		F17061AF1578692000DEF1C2 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		F1FEFA70158AE8550032778B /* twitterCells.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = twitterCells.xib; sourceTree = "<group>"; };
+		F1FEFA73158AE9650032778B /* TwitterCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterCellViewController.h; sourceTree = "<group>"; };
+		F1FEFA74158AE9650032778B /* TwitterCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterCellViewController.m; sourceTree = "<group>"; };
+		F1FEFA7A1596DF5E0032778B /* Facebook.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Facebook.xib; sourceTree = "<group>"; };
+		F1FEFA7E1596E2D00032778B /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
+		F1FEFA7F1596E2D00032778B /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
+		F1FEFA811596E2E80032778B /* FacebookCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookCellViewController.h; sourceTree = "<group>"; };
+		F1FEFA821596E2E80032778B /* FacebookCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookCellViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A020154514DAF628009DDD0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A020154D14DAF628009DDD0A /* UIKit.framework in Frameworks */,
+				A020154F14DAF628009DDD0A /* Foundation.framework in Frameworks */,
+				A020155114DAF628009DDD0A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A006204A153C920E004E284D /* beer */ = {
+			isa = PBXGroup;
+			children = (
+				A0062056153CBE05004E284D /* beerFrame.png */,
+				A0062057153CBE05004E284D /* beerFrame@2x.png */,
+				A006204C153C926F004E284D /* beerGlass.png */,
+				A006204D153C926F004E284D /* beerGlass@2x.png */,
+			);
+			name = beer;
+			sourceTree = "<group>";
+		};
+		A0062068153CCA9F004E284D /* topBar */ = {
+			isa = PBXGroup;
+			children = (
+				A01A00D715406B6600EDF176 /* TopBarViewController.h */,
+				A01A00D815406B6600EDF176 /* TopBarViewController.m */,
+			);
+			name = topBar;
+			sourceTree = "<group>";
+		};
+		A0138F68156FF7E90092C4E4 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				A0138F69156FF80A0092C4E4 /* CalendarViewController.h */,
+				A0138F6A156FF80A0092C4E4 /* CalendarViewController.m */,
+			);
+			name = calendar;
+			sourceTree = "<group>";
+		};
+		A015610F1548E2E900847639 /* nibs */ = {
+			isa = PBXGroup;
+			children = (
+				A0062069153CCFB6004E284D /* TopViewController.xib */,
+				A01BE40014F368BD002E48C0 /* Loading.xib */,
+				A016A98914F42B8B00FF3CFF /* Home.xib */,
+				A016A98F14F434EC00FF3CFF /* Beer.xib */,
+				A016A99514F436ED00FF3CFF /* BeerLocator.xib */,
+				A016A99714F4370700FF3CFF /* Gallery.xib */,
+				A06655E91545C5660097B413 /* Newsletter.xib */,
+				A021A7881548A14900E4D689 /* ContactUs.xib */,
+				A0138F6C156FF8460092C4E4 /* Calendar.xib */,
+				F1664D90157F1099004604E6 /* Twitter.xib */,
+				F1FEFA70158AE8550032778B /* twitterCells.xib */,
+				F1FEFA7A1596DF5E0032778B /* Facebook.xib */,
+			);
+			name = nibs;
+			sourceTree = "<group>";
+		};
+		A01561101548E2F700847639 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A01561111548E3AC00847639 /* Lifestyle_Rounded_M54.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		A016A98B14F42BA900FF3CFF /* home */ = {
+			isa = PBXGroup;
+			children = (
+				A016A98C14F42BE800FF3CFF /* HomeViewController.h */,
+				A016A98D14F42BE800FF3CFF /* HomeViewController.m */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		A016A99114F434EF00FF3CFF /* beer */ = {
+			isa = PBXGroup;
+			children = (
+				A016A99214F4350D00FF3CFF /* BeerViewController.h */,
+				A016A99314F4350D00FF3CFF /* BeerViewController.m */,
+			);
+			name = beer;
+			sourceTree = "<group>";
+		};
+		A016A99914F4372200FF3CFF /* beerLocator */ = {
+			isa = PBXGroup;
+			children = (
+				A016A99E14F4376700FF3CFF /* BeerLocatorViewController.h */,
+				A016A99F14F4376700FF3CFF /* BeerLocatorViewController.m */,
+			);
+			name = beerLocator;
+			sourceTree = "<group>";
+		};
+		A016A99A14F4372900FF3CFF /* gallery */ = {
+			isa = PBXGroup;
+			children = (
+				A016A99B14F4374F00FF3CFF /* GalleryViewController.h */,
+				A016A99C14F4374F00FF3CFF /* GalleryViewController.m */,
+			);
+			name = gallery;
+			sourceTree = "<group>";
+		};
+		A0197BAB1508027E0014D35B /* general */ = {
+			isa = PBXGroup;
+			children = (
+				A01FB715157EA0D300507BF2 /* itemTabBarSelected.png */,
+				A01FB716157EA0D300507BF2 /* itemTabBarSelected@2x.png */,
+				A01FB6D9157E924400507BF2 /* tabbarbackground_2.png */,
+				A01FB6DA157E924400507BF2 /* tabbarbackground_2@2x.png */,
+				A0138F63156FF5370092C4E4 /* topButtonBackground.png */,
+				A0138F64156FF5370092C4E4 /* topButtonBackground@2x.png */,
+				A06655E11545B8AF0097B413 /* tobBarBackground2.png */,
+				A06655DF1545B86C0097B413 /* tobBarBackground2@2x.png */,
+				A01A00D215406B0400EDF176 /* tobBarBackground.png */,
+				A01A00D315406B0400EDF176 /* tobBarBackground@2x.png */,
+				A0062063153CC643004E284D /* backButton.png */,
+				A0062064153CC643004E284D /* backButton@2x.png */,
+				A01BE3F914F36791002E48C0 /* icon@2x.png */,
+				A01BE3F714F3678D002E48C0 /* icon.png */,
+				A0197BAC1508029F0014D35B /* tabBarBackground.png */,
+				A0197BAD1508029F0014D35B /* tabBarBackground@2x.png */,
+			);
+			name = general;
+			sourceTree = "<group>";
+		};
+		A01BE3E914F3628B002E48C0 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				A01BE3EB14F36295002E48C0 /* prosoft */,
+			);
+			name = com;
+			sourceTree = "<group>";
+		};
+		A01BE3EB14F36295002E48C0 /* prosoft */ = {
+			isa = PBXGroup;
+			children = (
+				A01BE3EC14F36321002E48C0 /* fcb */,
+			);
+			name = prosoft;
+			sourceTree = "<group>";
+		};
+		A01BE3EC14F36321002E48C0 /* fcb */ = {
+			isa = PBXGroup;
+			children = (
+				A020155B14DAF628009DDD0A /* AppDelegate.h */,
+				A020155C14DAF628009DDD0A /* AppDelegate.m */,
+				A01BE3F014F36348002E48C0 /* service */,
+				A01BE3EF14F36340002E48C0 /* model */,
+				A01BE3EE14F36338002E48C0 /* util */,
+				A01BE3ED14F36330002E48C0 /* view */,
+			);
+			name = fcb;
+			sourceTree = "<group>";
+		};
+		A01BE3ED14F36330002E48C0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEFA7D1596E25A0032778B /* facebook */,
+				F17061AD157868CD00DEF1C2 /* twitter */,
+				A0138F68156FF7E90092C4E4 /* calendar */,
+				A021A7901548A25F00E4D689 /* contactUs */,
+				A06655F01545EEB50097B413 /* newsletter */,
+				A0062068153CCA9F004E284D /* topBar */,
+				A0FD8F13152A5E840029A8B0 /* components */,
+				A016A99A14F4372900FF3CFF /* gallery */,
+				A016A99914F4372200FF3CFF /* beerLocator */,
+				A016A99114F434EF00FF3CFF /* beer */,
+				A016A98B14F42BA900FF3CFF /* home */,
+				A01BE3FC14F36823002E48C0 /* loading */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		A01BE3EE14F36338002E48C0 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				A016A98614F4273400FF3CFF /* Constants.h */,
+				A016A98714F4273400FF3CFF /* Constants.m */,
+				A015610B1548DF8200847639 /* UIUtils.h */,
+				A015610C1548DF8200847639 /* UIUtils.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		A01BE3EF14F36340002E48C0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		A01BE3F014F36348002E48C0 /* service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
+		A01BE3F114F363D0002E48C0 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				A08BB86815A3A0B0006A0182 /* twitter */,
+				A08BB86215A39F15006A0182 /* facebook */,
+				A021A78B1548A21C00E4D689 /* contactUs */,
+				A06655EB1545EE500097B413 /* newsletter */,
+				A006204A153C920E004E284D /* beer */,
+				A01D54CC152B5B9100E8E178 /* home */,
+				A0197BAB1508027E0014D35B /* general */,
+				A01BE40214F36997002E48C0 /* loading */,
+			);
+			name = assets;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A01BE3FC14F36823002E48C0 /* loading */ = {
+			isa = PBXGroup;
+			children = (
+				A01BE3FD14F36856002E48C0 /* LoadingViewController.h */,
+				A01BE3FE14F36856002E48C0 /* LoadingViewController.m */,
+			);
+			name = loading;
+			sourceTree = "<group>";
+		};
+		A01BE40214F36997002E48C0 /* loading */ = {
+			isa = PBXGroup;
+			children = (
+				A0A2BC9315FA752E00D70809 /* loadingBackground_1Left_blur.png */,
+				A0A2BC9415FA752E00D70809 /* loadingBackground_1Left_blur@2x.png */,
+				A0A2BC8F15FA72FB00D70809 /* loadingBackground_1Right_blur.png */,
+				A0A2BC9015FA72FB00D70809 /* loadingBackground_1Right_blur@2x.png */,
+				A0A2BC8215FA6B2A00D70809 /* loadingBackground_1Left.png */,
+				A0A2BC8315FA6B2A00D70809 /* loadingBackground_1Left@2x.png */,
+				A0A2BC8415FA6B2A00D70809 /* loadingBackground_1Right.png */,
+				A0A2BC8515FA6B2A00D70809 /* loadingBackground_1Right@2x.png */,
+				A0A2BC8615FA6B2A00D70809 /* loadingBackground_2.png */,
+				A0A2BC8715FA6B2A00D70809 /* loadingBackground_2@2x.png */,
+				A01BE40314F36A0C002E48C0 /* loadingBackground.png */,
+				A01BE40414F36A0C002E48C0 /* loadingBackground@2x.png */,
+			);
+			name = loading;
+			sourceTree = "<group>";
+		};
+		A01D54CC152B5B9100E8E178 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				A01FB73A157ED6C600507BF2 /* girlRightHome.png */,
+				A01FB73B157ED6C600507BF2 /* girlRightHome@2X.png */,
+				A01FB732157ECFF600507BF2 /* beerletfHome.png */,
+				A01FB733157ECFF600507BF2 /* beerletfHome@2x.png */,
+				A01D54CE152B5BAD00E8E178 /* homeBackground.png */,
+				A01D54CF152B5BAD00E8E178 /* homeBackground@2x.png */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		A020153D14DAF627009DDD0A = {
+			isa = PBXGroup;
+			children = (
+				A020155214DAF628009DDD0A /* src */,
+				A020154B14DAF628009DDD0A /* Frameworks */,
+				A020154914DAF628009DDD0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A020154914DAF628009DDD0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A020154814DAF628009DDD0A /* FallsCityBeer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A020154B14DAF628009DDD0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A020154C14DAF628009DDD0A /* UIKit.framework */,
+				A020154E14DAF628009DDD0A /* Foundation.framework */,
+				A020155014DAF628009DDD0A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A020155214DAF628009DDD0A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A01BE3E914F3628B002E48C0 /* com */,
+				A020157C14DAF6F8009DDD0A /* Resources */,
+				A020155314DAF628009DDD0A /* Supporting Files */,
+			);
+			name = src;
+			path = FallsCityBeer;
+			sourceTree = "<group>";
+		};
+		A020155314DAF628009DDD0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A020155414DAF628009DDD0A /* FallsCityBeer-Info.plist */,
+				A020155514DAF628009DDD0A /* InfoPlist.strings */,
+				A020155814DAF628009DDD0A /* main.m */,
+				A020155A14DAF628009DDD0A /* FallsCityBeer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A020157C14DAF6F8009DDD0A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A01561101548E2F700847639 /* fonts */,
+				A015610F1548E2E900847639 /* nibs */,
+				A01BE3F114F363D0002E48C0 /* assets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A021A78B1548A21C00E4D689 /* contactUs */ = {
+			isa = PBXGroup;
+			children = (
+				A021A78C1548A22B00E4D689 /* contactUsBackground.png */,
+				A021A78D1548A22B00E4D689 /* contactUsBackground@2x.png */,
+			);
+			name = contactUs;
+			sourceTree = "<group>";
+		};
+		A021A7901548A25F00E4D689 /* contactUs */ = {
+			isa = PBXGroup;
+			children = (
+				A021A7911548A2BF00E4D689 /* ContactUsViewController.h */,
+				A021A7921548A2BF00E4D689 /* ContactUsViewController.m */,
+			);
+			name = contactUs;
+			sourceTree = "<group>";
+		};
+		A06655EB1545EE500097B413 /* newsletter */ = {
+			isa = PBXGroup;
+			children = (
+				A021A77F1548729300E4D689 /* thankyou.png */,
+				A021A7801548729300E4D689 /* thankyou@2x.png */,
+				A06655F4154611810097B413 /* sendButton.png */,
+				A06655F5154611810097B413 /* sendButton@2x.png */,
+				A06655EC1545EE7F0097B413 /* newsletterBackground.png */,
+				A06655ED1545EE7F0097B413 /* newsletterBackground@2x.png */,
+			);
+			name = newsletter;
+			sourceTree = "<group>";
+		};
+		A06655F01545EEB50097B413 /* newsletter */ = {
+			isa = PBXGroup;
+			children = (
+				A06655F11545EEDA0097B413 /* NewletterViewController.h */,
+				A06655F21545EEDA0097B413 /* NewletterViewController.m */,
+			);
+			name = newsletter;
+			sourceTree = "<group>";
+		};
+		A08BB86215A39F15006A0182 /* facebook */ = {
+			isa = PBXGroup;
+			children = (
+				A08BB87515A3A482006A0182 /* facebookButtonPress.png */,
+				A08BB87615A3A482006A0182 /* facebookButtonPress@2x.png */,
+				A08BB87115A3A39B006A0182 /* facebookButton.png */,
+				A08BB87215A3A39B006A0182 /* facebookButton@2x.png */,
+			);
+			name = facebook;
+			sourceTree = "<group>";
+		};
+		A08BB86815A3A0B0006A0182 /* twitter */ = {
+			isa = PBXGroup;
+			children = (
+				A0A2BC9715FA907B00D70809 /* tweetsCellBackground.png */,
+				A0A2BC9815FA907B00D70809 /* tweetsCellBackground@2x.png */,
+				A08BB86915A3A0C4006A0182 /* twiterButtonPress.png */,
+				A08BB86A15A3A0C4006A0182 /* twiterButtonPress@2x.png */,
+				A08BB86B15A3A0C4006A0182 /* twitterButton.png */,
+				A08BB86C15A3A0C4006A0182 /* twitterButton@2x.png */,
+			);
+			name = twitter;
+			sourceTree = "<group>";
+		};
+		A0FD8F13152A5E840029A8B0 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				A0FD8F15152A5ED80029A8B0 /* CustomUITabBarController.h */,
+				A0FD8F16152A5ED80029A8B0 /* CustomUITabBarController.m */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		F17061AD157868CD00DEF1C2 /* twitter */ = {
+			isa = PBXGroup;
+			children = (
+				F17061AE1578692000DEF1C2 /* TwitterViewController.h */,
+				F17061AF1578692000DEF1C2 /* TwitterViewController.m */,
+				F1FEFA73158AE9650032778B /* TwitterCellViewController.h */,
+				F1FEFA74158AE9650032778B /* TwitterCellViewController.m */,
+			);
+			name = twitter;
+			sourceTree = "<group>";
+		};
+		F1FEFA7D1596E25A0032778B /* facebook */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEFA7E1596E2D00032778B /* FacebookViewController.h */,
+				F1FEFA7F1596E2D00032778B /* FacebookViewController.m */,
+				F1FEFA811596E2E80032778B /* FacebookCellViewController.h */,
+				F1FEFA821596E2E80032778B /* FacebookCellViewController.m */,
+			);
+			name = facebook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A020154714DAF628009DDD0A /* FallsCityBeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A020157414DAF628009DDD0A /* Build configuration list for PBXNativeTarget "FallsCityBeer" */;
+			buildPhases = (
+				A020154414DAF628009DDD0A /* Sources */,
+				A020154514DAF628009DDD0A /* Frameworks */,
+				A020154614DAF628009DDD0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FallsCityBeer;
+			productName = FallsCityBeer;
+			productReference = A020154814DAF628009DDD0A /* FallsCityBeer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A020153F14DAF627009DDD0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = A020154214DAF627009DDD0A /* Build configuration list for PBXProject "FallsCityBeer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A020153D14DAF627009DDD0A;
+			productRefGroup = A020154914DAF628009DDD0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A020154714DAF628009DDD0A /* FallsCityBeer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A020154614DAF628009DDD0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A020155714DAF628009DDD0A /* InfoPlist.strings in Resources */,
+				A01BE3F814F3678D002E48C0 /* icon.png in Resources */,
+				A01BE3FA14F36791002E48C0 /* icon@2x.png in Resources */,
+				A01BE40114F368BD002E48C0 /* Loading.xib in Resources */,
+				A01BE40514F36A0C002E48C0 /* loadingBackground.png in Resources */,
+				A01BE40614F36A0C002E48C0 /* loadingBackground@2x.png in Resources */,
+				A016A98A14F42B8B00FF3CFF /* Home.xib in Resources */,
+				A016A99014F434EC00FF3CFF /* Beer.xib in Resources */,
+				A016A99614F436ED00FF3CFF /* BeerLocator.xib in Resources */,
+				A016A99814F4370700FF3CFF /* Gallery.xib in Resources */,
+				A0197BAE1508029F0014D35B /* tabBarBackground.png in Resources */,
+				A0197BAF1508029F0014D35B /* tabBarBackground@2x.png in Resources */,
+				A01D54D0152B5BAD00E8E178 /* homeBackground.png in Resources */,
+				A01D54D1152B5BAD00E8E178 /* homeBackground@2x.png in Resources */,
+				A006204E153C926F004E284D /* beerGlass.png in Resources */,
+				A006204F153C926F004E284D /* beerGlass@2x.png in Resources */,
+				A0062058153CBE05004E284D /* beerFrame.png in Resources */,
+				A0062059153CBE05004E284D /* beerFrame@2x.png in Resources */,
+				A0062065153CC643004E284D /* backButton.png in Resources */,
+				A0062066153CC643004E284D /* backButton@2x.png in Resources */,
+				A006206A153CCFB6004E284D /* TopViewController.xib in Resources */,
+				A01A00D415406B0400EDF176 /* tobBarBackground.png in Resources */,
+				A01A00D515406B0400EDF176 /* tobBarBackground@2x.png in Resources */,
+				A06655E01545B86C0097B413 /* tobBarBackground2@2x.png in Resources */,
+				A06655E21545B8AF0097B413 /* tobBarBackground2.png in Resources */,
+				A06655EA1545C5660097B413 /* Newsletter.xib in Resources */,
+				A06655EE1545EE7F0097B413 /* newsletterBackground.png in Resources */,
+				A06655EF1545EE7F0097B413 /* newsletterBackground@2x.png in Resources */,
+				A06655F6154611810097B413 /* sendButton.png in Resources */,
+				A06655F7154611810097B413 /* sendButton@2x.png in Resources */,
+				A021A7811548729300E4D689 /* thankyou.png in Resources */,
+				A021A7821548729300E4D689 /* thankyou@2x.png in Resources */,
+				A021A7891548A14900E4D689 /* ContactUs.xib in Resources */,
+				A021A78E1548A22B00E4D689 /* contactUsBackground.png in Resources */,
+				A021A78F1548A22B00E4D689 /* contactUsBackground@2x.png in Resources */,
+				A01561121548E3AC00847639 /* Lifestyle_Rounded_M54.ttf in Resources */,
+				A0138F65156FF5370092C4E4 /* topButtonBackground.png in Resources */,
+				A0138F66156FF5370092C4E4 /* topButtonBackground@2x.png in Resources */,
+				A0138F6D156FF8460092C4E4 /* Calendar.xib in Resources */,
+				A01FB6DB157E924400507BF2 /* tabbarbackground_2.png in Resources */,
+				A01FB6DC157E924400507BF2 /* tabbarbackground_2@2x.png in Resources */,
+				A01FB717157EA0D300507BF2 /* itemTabBarSelected.png in Resources */,
+				A01FB718157EA0D300507BF2 /* itemTabBarSelected@2x.png in Resources */,
+				A01FB734157ECFF600507BF2 /* beerletfHome.png in Resources */,
+				A01FB735157ECFF600507BF2 /* beerletfHome@2x.png in Resources */,
+				A01FB73C157ED6C600507BF2 /* girlRightHome.png in Resources */,
+				A01FB73D157ED6C600507BF2 /* girlRightHome@2X.png in Resources */,
+				F1664D91157F1099004604E6 /* Twitter.xib in Resources */,
+				F1FEFA71158AE8550032778B /* twitterCells.xib in Resources */,
+				F1FEFA7B1596DF5E0032778B /* Facebook.xib in Resources */,
+				A08BB86D15A3A0C4006A0182 /* twiterButtonPress.png in Resources */,
+				A08BB86E15A3A0C4006A0182 /* twiterButtonPress@2x.png in Resources */,
+				A08BB86F15A3A0C4006A0182 /* twitterButton.png in Resources */,
+				A08BB87015A3A0C4006A0182 /* twitterButton@2x.png in Resources */,
+				A08BB87315A3A39B006A0182 /* facebookButton.png in Resources */,
+				A08BB87415A3A39B006A0182 /* facebookButton@2x.png in Resources */,
+				A08BB87715A3A482006A0182 /* facebookButtonPress.png in Resources */,
+				A08BB87815A3A482006A0182 /* facebookButtonPress@2x.png in Resources */,
+				A0A2BC8815FA6B2A00D70809 /* loadingBackground_1Left.png in Resources */,
+				A0A2BC8915FA6B2A00D70809 /* loadingBackground_1Left@2x.png in Resources */,
+				A0A2BC8A15FA6B2A00D70809 /* loadingBackground_1Right.png in Resources */,
+				A0A2BC8B15FA6B2A00D70809 /* loadingBackground_1Right@2x.png in Resources */,
+				A0A2BC8C15FA6B2A00D70809 /* loadingBackground_2.png in Resources */,
+				A0A2BC8D15FA6B2A00D70809 /* loadingBackground_2@2x.png in Resources */,
+				A0A2BC9115FA72FB00D70809 /* loadingBackground_1Right_blur.png in Resources */,
+				A0A2BC9215FA72FB00D70809 /* loadingBackground_1Right_blur@2x.png in Resources */,
+				A0A2BC9515FA752E00D70809 /* loadingBackground_1Left_blur.png in Resources */,
+				A0A2BC9615FA752E00D70809 /* loadingBackground_1Left_blur@2x.png in Resources */,
+				A0A2BC9915FA907B00D70809 /* tweetsCellBackground.png in Resources */,
+				A0A2BC9A15FA907B00D70809 /* tweetsCellBackground@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A020154414DAF628009DDD0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A020155914DAF628009DDD0A /* main.m in Sources */,
+				A020155D14DAF628009DDD0A /* AppDelegate.m in Sources */,
+				A01BE3FF14F36856002E48C0 /* LoadingViewController.m in Sources */,
+				A016A98814F4273400FF3CFF /* Constants.m in Sources */,
+				A016A98E14F42BE800FF3CFF /* HomeViewController.m in Sources */,
+				A016A99414F4350D00FF3CFF /* BeerViewController.m in Sources */,
+				A016A99D14F4374F00FF3CFF /* GalleryViewController.m in Sources */,
+				A016A9A014F4376700FF3CFF /* BeerLocatorViewController.m in Sources */,
+				A0FD8F17152A5ED80029A8B0 /* CustomUITabBarController.m in Sources */,
+				A01A00D915406B6600EDF176 /* TopBarViewController.m in Sources */,
+				A06655F31545EEDA0097B413 /* NewletterViewController.m in Sources */,
+				A021A7931548A2BF00E4D689 /* ContactUsViewController.m in Sources */,
+				A015610D1548DF8200847639 /* UIUtils.m in Sources */,
+				A0138F6B156FF80A0092C4E4 /* CalendarViewController.m in Sources */,
+				F17061B01578692000DEF1C2 /* TwitterViewController.m in Sources */,
+				F1FEFA75158AE9650032778B /* TwitterCellViewController.m in Sources */,
+				F1FEFA801596E2D00032778B /* FacebookViewController.m in Sources */,
+				F1FEFA831596E2E80032778B /* FacebookCellViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A020155514DAF628009DDD0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A020155614DAF628009DDD0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A01A00E01540848800EDF176 /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Roy Quesada";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roy Quesada";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C1EE34A0-AC98-47A9-A6C7-E4E5D33D9D48";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C1EE34A0-AC98-47A9-A6C7-E4E5D33D9D48";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad-Hoc";
+		};
+		A01A00E11540848800EDF176 /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallsCityBeer/FallsCityBeer-Prefix.pch";
+				INFOPLIST_FILE = "FallsCityBeer/FallsCityBeer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad-Hoc";
+		};
+		A020157214DAF628009DDD0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Roy Quesada";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roy Quesada";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "C1EE34A0-AC98-47A9-A6C7-E4E5D33D9D48";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C1EE34A0-AC98-47A9-A6C7-E4E5D33D9D48";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A020157314DAF628009DDD0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Roy Quesada";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roy Quesada";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C1EE34A0-AC98-47A9-A6C7-E4E5D33D9D48";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C1EE34A0-AC98-47A9-A6C7-E4E5D33D9D48";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A020157514DAF628009DDD0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallsCityBeer/FallsCityBeer-Prefix.pch";
+				INFOPLIST_FILE = "FallsCityBeer/FallsCityBeer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A020157614DAF628009DDD0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallsCityBeer/FallsCityBeer-Prefix.pch";
+				INFOPLIST_FILE = "FallsCityBeer/FallsCityBeer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A020154214DAF627009DDD0A /* Build configuration list for PBXProject "FallsCityBeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A020157214DAF628009DDD0A /* Debug */,
+				A020157314DAF628009DDD0A /* Release */,
+				A01A00E01540848800EDF176 /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A020157414DAF628009DDD0A /* Build configuration list for PBXNativeTarget "FallsCityBeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A020157514DAF628009DDD0A /* Debug */,
+				A020157614DAF628009DDD0A /* Release */,
+				A01A00E11540848800EDF176 /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A020153F14DAF627009DDD0A /* Project object */;
+}

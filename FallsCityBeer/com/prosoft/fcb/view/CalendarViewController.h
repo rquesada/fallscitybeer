@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CalendarViewController : UIViewController
-
+@interface CalendarViewController : UIViewController{
+    
+}
+//methods
+- (void) hide;
 @end

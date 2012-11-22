@@ -121,9 +121,13 @@ CalendarViewController *calendarViewController;
 
 // Optional UITabBarControllerDelegate method.
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController{
-    NSLog(@"shouldSelectViewController");
     if ([tabBarController.selectedViewController.title isEqualToString:@"Home"] && [homeViewController.animationStatus isEqualToString:ANIMATION_CAN_START]) {
         [homeViewController startAnimation];
+        
+        if ([viewController.title isEqualToString:@"Beer"]) {
+//            [beerViewController show];
+        }
+        
         return NO;
     }
     

@@ -23,6 +23,10 @@
     return self;
 }
 
+- (void) hide{
+    NSLog(@"hide calendar");
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

@@ -11,6 +11,7 @@
 #import "ContactUsViewController.h"
 #import "TwitterViewController.h"
 #import "FacebookViewController.h"
+#import "CalendarViewController.h"
 
 @interface TopBarViewController : UIViewController {
     UIButton *lastPressed;
@@ -18,6 +19,7 @@
     ContactUsViewController *contactUsViewController;
     TwitterViewController *twitterViewController;
     FacebookViewController *facebookViewController;
+    CalendarViewController *calendarViewController;
 }
 @property (nonatomic, retain) IBOutlet UIButton *newsLetterButton;
 @property (nonatomic, retain) IBOutlet UIButton *contactUsButton;
@@ -30,5 +32,6 @@
 - (BOOL) showContactUs;
 - (BOOL) showTwitter;
 - (BOOL) showFacebook;
+- (BOOL) showCalendar;
 +(TopBarViewController *) sharedInstance;
 @end

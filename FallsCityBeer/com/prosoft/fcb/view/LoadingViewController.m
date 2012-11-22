@@ -54,22 +54,7 @@ AppDelegate *appDelegate;
         
 	} completion:^(BOOL finished)
 	 {
-		 NSLog(@"animation end");
-//         [[appDelegate tabBarController] setSelectedIndex:1];
-//         leftImage.transform = CGAffineTransformMakeTranslation(0,0);
-//         leftImage.alpha=1;
-//         
-//         rightImage.transform = CGAffineTransformMakeTranslation(0,0);
-//         rightImage.alpha=1;
-//         
-//         
-//         [[leftImage layer] setRasterizationScale:1];
-//         [[leftImage layer] setShouldRasterize:YES];
-//         
-//         [[rightImage layer] setRasterizationScale:1];
-//         [[rightImage layer] setShouldRasterize:YES];
-         [self performSelector:@selector(goHome) withObject:nil afterDelay:2.0];
-         
+         [self performSelector:@selector(goHome) withObject:nil afterDelay:1.0];
 	 }];
 }
 

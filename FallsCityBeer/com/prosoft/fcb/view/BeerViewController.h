@@ -9,12 +9,15 @@
 #import <UIKit/UIKit.h>
 #import "TopBarViewController.h"
 #import "AppDelegate.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface BeerViewController : UIViewController <UITabBarControllerDelegate>{
     UIView *beerFrameContainer;
     TopBarViewController *topBarViewController;
     AppDelegate *appDelegate;
+    BOOL isShowBeerButton;
 }
+- (void) show;
 @property (nonatomic, retain) IBOutlet UIButton *beerButton;
 @property (nonatomic, retain) IBOutlet UIButton *backButton;
 @property (nonatomic, retain) IBOutlet UIView *beerFrameContainer;

@@ -70,6 +70,15 @@ static TopBarViewController *topViewControllerInstance = nil;
         [self.view addSubview:facebookViewController.view];
         facebookViewController.view.hidden = YES;
         
+        //Calendar
+        calendarViewController = [[CalendarViewController alloc] initWithNibName:@"Calendar" bundle:[NSBundle mainBundle]];
+        calendarViewController.view.frame = CGRectMake(13,
+                                                      115,
+                                                      calendarViewController.view.frame.size.width,
+                                                      calendarViewController.view.frame.size.height);
+        [self.view addSubview:calendarViewController.view];
+        calendarViewController.view.hidden = YES;
+        
         lastPressed = nil;
     }
     
@@ -85,38 +94,58 @@ static TopBarViewController *topViewControllerInstance = nil;
         if (lastPressed == newsLetterButton) {
             newsLetterButton.selected = YES;
             contactUsButton.selected = NO;
+            twitterButton.selected = NO;
+            facebookButton.selected = NO;
+            calendarButton.selected = NO;
             contactUsViewController.view.hidden = YES;
             twitterViewController.view.hidden   = YES;
             facebookViewController.view.hidden  = YES;
+            calendarViewController.view.hidden = YES;
             [self showNewsletter];
         }else if (lastPressed == contactUsButton){
-            
             contactUsButton.selected  = YES;
             newsLetterButton.selected = NO;
             twitterButton.selected    = NO;
             facebookButton.selected   = NO;
+            calendarButton.selected   = NO;
             newletterViewController.view.hidden = YES;
             twitterViewController.view.hidden   = YES;
             facebookViewController.view.hidden  = YES;
+            calendarViewController.view.hidden = YES;
             [self showContactUs];
         }else if (lastPressed == twitterButton){
             twitterButton.selected    = YES;
             contactUsButton.selected  = NO;
             newsLetterButton.selected = NO;
             facebookButton.selected   = NO;
+            calendarButton.selected   = NO;
             newletterViewController.view.hidden = YES;
             contactUsViewController.view.hidden = YES;
             facebookViewController.view.hidden  = YES;
+            calendarViewController.view.hidden = YES;
             [self showTwitter];
         }else if (lastPressed == facebookButton){
             facebookButton.selected   = YES;
             contactUsButton.selected  = NO;
             newsLetterButton.selected = NO;
             twitterButton.selected    = NO;
+            calendarButton.selected   = NO;
             newletterViewController.view.hidden = YES;
             contactUsViewController.view.hidden = YES;
             twitterViewController.view.hidden   = YES;
+            calendarViewController.view.hidden = YES;
             [self showFacebook];
+        }else if (lastPressed == calendarButton){
+            calendarButton.selected   = YES;
+            contactUsButton.selected  = NO;
+            newsLetterButton.selected = NO;
+            twitterButton.selected    = NO;
+            facebookButton.selected   = NO;
+            newletterViewController.view.hidden = YES;
+            contactUsViewController.view.hidden = YES;
+            twitterViewController.view.hidden   = YES;
+            facebookViewController.view.hidden  = YES;
+            [self showCalendar];
         }
         
     }    
@@ -124,8 +153,24 @@ static TopBarViewController *topViewControllerInstance = nil;
 
 - (BOOL) showCalendar{
     BOOL value;
-    
-    
+    if(calendarViewController.view.hidden){
+        self.view.frame = CGRectMake(0,
+                                     self.view.frame.origin.y,
+                                     self.view.frame.size.width,
+                                     425);
+        value = YES;
+        
+    }else {
+        self.view.frame = CGRectMake(0,
+                                     self.view.frame.origin.y,
+                                     self.view.frame.size.width,
+                                     106);
+        [calendarViewController hide];
+        calendarButton.selected = NO;
+        value = NO;
+    }
+    calendarViewController.view.hidden = !calendarViewController.view.hidden;
+
     return value;
 }
 
@@ -200,7 +245,6 @@ static TopBarViewController *topViewControllerInstance = nil;
     
     return value;
 }
-
 
 - (BOOL) showFacebook{
     BOOL value;

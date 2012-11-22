@@ -31,7 +31,6 @@ NSString * const ANIMATION_CAN_START = @"animationCanStart";
 - (void) startAnimation{
     animationStatus = ANIMATION_ON_PROGRESS;
     
-    
 	[UIView animateWithDuration:0.7 animations:^{
         leftView.transform = CGAffineTransformMakeTranslation(-120,30);
         leftView.alpha = 0.3;
@@ -46,7 +45,6 @@ NSString * const ANIMATION_CAN_START = @"animationCanStart";
         
 	} completion:^(BOOL finished)
 	 {
-		 NSLog(@"animation end");
          animationStatus = ANIMATION_JUST_END;
          [[appDelegate tabBarController] setSelectedIndex:1];
          leftView.transform = CGAffineTransformMakeTranslation(0,0);

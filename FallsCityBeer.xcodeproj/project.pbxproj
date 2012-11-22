@@ -70,6 +70,7 @@
 		A06655F31545EEDA0097B413 /* NewletterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06655F21545EEDA0097B413 /* NewletterViewController.m */; };
 		A06655F6154611810097B413 /* sendButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A06655F4154611810097B413 /* sendButton.png */; };
 		A06655F7154611810097B413 /* sendButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A06655F5154611810097B413 /* sendButton@2x.png */; };
+		A0892650165D94E40046DC07 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A089264F165D94E40046DC07 /* Default-568h@2x.png */; };
 		A08BB86D15A3A0C4006A0182 /* twiterButtonPress.png in Resources */ = {isa = PBXBuildFile; fileRef = A08BB86915A3A0C4006A0182 /* twiterButtonPress.png */; };
 		A08BB86E15A3A0C4006A0182 /* twiterButtonPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A08BB86A15A3A0C4006A0182 /* twiterButtonPress@2x.png */; };
 		A08BB86F15A3A0C4006A0182 /* twitterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A08BB86B15A3A0C4006A0182 /* twitterButton.png */; };
@@ -179,6 +180,7 @@
 		A06655F21545EEDA0097B413 /* NewletterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewletterViewController.m; path = com/prosoft/fcb/view/NewletterViewController.m; sourceTree = "<group>"; };
 		A06655F4154611810097B413 /* sendButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sendButton.png; path = FallsCityBeer/assets/sendButton.png; sourceTree = "<group>"; };
 		A06655F5154611810097B413 /* sendButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sendButton@2x.png"; path = "FallsCityBeer/assets/sendButton@2x.png"; sourceTree = "<group>"; };
+		A089264F165D94E40046DC07 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A08BB86915A3A0C4006A0182 /* twiterButtonPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twiterButtonPress.png; path = FallsCityBeer/assets/twiterButtonPress.png; sourceTree = "<group>"; };
 		A08BB86A15A3A0C4006A0182 /* twiterButtonPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twiterButtonPress@2x.png"; path = "FallsCityBeer/assets/twiterButtonPress@2x.png"; sourceTree = "<group>"; };
 		A08BB86B15A3A0C4006A0182 /* twitterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitterButton.png; path = FallsCityBeer/assets/twitterButton.png; sourceTree = "<group>"; };
@@ -476,6 +478,7 @@
 		A020153D14DAF627009DDD0A = {
 			isa = PBXGroup;
 			children = (
+				A089264F165D94E40046DC07 /* Default-568h@2x.png */,
 				A020155214DAF628009DDD0A /* src */,
 				A020154B14DAF628009DDD0A /* Frameworks */,
 				A020154914DAF628009DDD0A /* Products */,
@@ -747,6 +750,7 @@
 				A0A2BC9615FA752E00D70809 /* loadingBackground_1Left_blur@2x.png in Resources */,
 				A0A2BC9915FA907B00D70809 /* tweetsCellBackground.png in Resources */,
 				A0A2BC9A15FA907B00D70809 /* tweetsCellBackground@2x.png in Resources */,
+				A0892650165D94E40046DC07 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
